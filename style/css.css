@@ -1,0 +1,133 @@
+#navbarBasicExample{
+	background-color:rgb(163, 247, 95);	 
+}
+.navbar-link{
+	color:black;
+	font-size:20px;
+}
+.navbar-item{
+	color:black;
+	font-size:20px;
+}
+
+.navbar-item:hover{
+	color:rgb(5, 63, 156);
+	font-size:20px;
+	border:2px solid #8EF13C;
+}
+
+.footer{
+	background-color:#5A9C00!important;
+	margin-top: 10px;
+}
+
+.content{
+	color:white;
+}
+
+.content strong{
+	color:white;
+}
+
+#wrap{
+	min-height: 100vh;
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color:lightgrey;
+}
+
+
+.hero{
+	display: flex;
+	justify-content: center;
+	text-align:center;
+	background-color: white;
+	background-image:url("../images/doc.png");
+}
+
+.select{
+	height:50px;
+	background-color:grey;
+	color:white;
+	font-size:18px;
+}
+
+.select option{
+	width:auto;
+	background-color: lightgrey;
+	color:black;
+}
+
+.label{
+	font-size:20px;
+	margin-top:23px;
+}
+
+
+input{
+	width:100%;
+}
+
+.contPrati{
+	display:flex;
+	flex-direction: column;
+	border:black solid 2px;
+	margin-top:15px;
+	background-image:url("../images/doc.png");
+}
+
+.titrePrati{
+	display:flex;
+	background-color:white;
+	font-size:22px;
+	border-bottom:black solid 2px;
+	color:red;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+.infoPrati{
+	background-color:white;
+	font-size:18px;
+	padding-left:20px;
+}
+
+h2{
+	font-size:22px;
+}
+
+.formAjoutPraticien{
+	height:100%;
+	width:auto;
+}
+
+.contAjoutPrati{
+	display: flex;
+	justify-content: center;
+	height:80%;
+	width:100%;
+	
+}
+
+.contAjoutPratiGauche{
+	display:flex;
+	flex-direction: column;
+		
+}
+
+.contAjoutPratiDroite{
+	display:flex;
+	flex-direction: column;
+	margin-left: 5px;
+}
+
+.contAjoutPratiGauche .control{
+	height:5.4%;
+	width:100%;
+}
+
+.contAjoutPratiGauche .select{
+	width:100%;
+}
